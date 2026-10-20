@@ -1,0 +1,26 @@
+{
+    "model": "MobileNetV2 CIFAR-10 ONNX",
+    "runtime": "ONNX Runtime",
+    "execution_provider": [
+        "CPUExecutionProvider"
+    ],
+    "evaluation_samples": 200,
+    "accuracy_percent": 71.5,
+    "mean_latency_ms": 29.1,
+    "median_latency_ms": 14.96,
+    "p95_latency_ms": 84.94,
+    "throughput_images_per_second": 34.36,
+    "per_class_accuracy_percent": {
+        "airplane": 70.0,
+        "automobile": 78.57,
+        "bird": 61.9,
+        "cat": 52.63,
+        "deer": 66.67,
+        "dog": 77.78,
+        "frog": 76.92,
+        "horse": 72.22,
+        "ship": 78.57,
+        "truck": 76.19
+    },
+    "hardware_note": "Google Colab CPU; FPGA üzerinde test edilmedi."
+}
